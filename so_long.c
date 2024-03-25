@@ -22,4 +22,10 @@ int ft_ber(char *map_name)
     return (0);
 }
 
-int main(fd)
+int main(int argc, char *argv[])
+{
+    if (argc == 2 && ft_ber(argv[1]))
+    {
+        
+    }
+}
